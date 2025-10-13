@@ -42,7 +42,7 @@ body {
   align-items: center;  
   z-index: 100;
   padding: 2rem 9%;
-  background-color: yellow;
+ 
 }
 
  .logo{
@@ -217,5 +217,6 @@ body {
     display: flex; /* Show when active */
   }
 }
+
 
 
