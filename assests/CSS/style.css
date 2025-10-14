@@ -110,8 +110,8 @@ body {
 .author-info {
   font-family: 'poppins', sans-serif;
    font-size: 60px;
-  
-  
+   padding: 20px 50px 20px 50px;
+   text-align: center;
   align-content: center;
   justify-content: center;
 }
