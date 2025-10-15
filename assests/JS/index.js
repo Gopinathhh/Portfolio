@@ -10,9 +10,9 @@
       moonIcon.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
         if (document.body.classList.contains('dark-mode')) {
-          moonIcon.innerHTML = '<i class="fa-solid fa-sun"></i>';
+          moonIcon.innerHTML = ' <i class="ri-sun-line"></i>';
         } else {
-          moonIcon.innerHTML = '<i class="fa-solid fa-moon"></i>';
+          moonIcon.innerHTML = '<i class="ri-moon-line"></i>';
         }
       });
 
