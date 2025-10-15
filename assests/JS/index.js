@@ -4,6 +4,11 @@
 
       menuToggle.addEventListener('click', () => {
         navbar.classList.toggle('active');
+       if (navbar.classList.contains('active')) {
+          menuToggle.innerHTML = '<i class="ri-close-line"></i>';
+       } else{
+          menuToggle.innerHTML = '<i class="ri-menu-line"></i>';
+       }
       });
 
        const moonIcon = document.querySelector('.moon-icon');
@@ -16,9 +21,9 @@
         }
       });
 
-      /*
+     /*
       const textTarget = document.querySelector('.text-target');
-      const roles = ['Dynamic', 'designing', 'developing'];
+      const roles = ['dynamic', 'modern', 'interactive'];
       let roleIndex = 0;
       let charIndex = 0;
 
@@ -45,4 +50,4 @@
 
       document.addEventListener('DOMContentLoaded', () => {
         if (roles.length) setTimeout(typeRole, 500);
-      });*/
+      }); */
